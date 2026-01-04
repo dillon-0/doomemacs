@@ -26,6 +26,9 @@
 ;;
 ;;; Code:
 
+
+(add-to-list 'initial-frame-alist '(fullscreen . maximized))
+
 (let (file-name-handler-alist)
   ;; PERF: Garbage collection is a big contributor to startup times in both
   ;;   interactive and CLI sessions, so I defer it.
