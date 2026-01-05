@@ -28,6 +28,7 @@
 
 
 (add-to-list 'initial-frame-alist '(fullscreen . maximized))
+(add-to-list 'default-frame-alist '(alpha . (95 . 91)))
 
 (let (file-name-handler-alist)
   ;; PERF: Garbage collection is a big contributor to startup times in both
